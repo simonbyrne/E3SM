@@ -1226,6 +1226,9 @@
       <env name="I_MPI_PIN_ORDER">spread</env>
       <env name="I_MPI_PIN_CELL">core</env>
     </environment_variables>
+    <environment_variables mpilib="openmpi">
+      <env name="UCX_TLS">sm,ud</env>
+    </environment_variables>
     <environment_variables mpilib="impi" DEBUG="TRUE">
       <env name="I_MPI_DEBUG">10</env>
     </environment_variables>
