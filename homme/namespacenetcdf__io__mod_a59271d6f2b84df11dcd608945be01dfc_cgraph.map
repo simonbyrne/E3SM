@@ -1,0 +1,4 @@
+<map id="netcdf_io_mod::nf_output_init_begin" name="netcdf_io_mod::nf_output_init_begin">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node2" href="$namespaceparallel__mod.html#aedf28bc0b4c696319fbf1e2630b47fc7" title="stops the parallel (message passing) environment and prints a message." alt="" coords="220,13,360,39"/>
+</map>

@@ -1,18 +1,17 @@
 var searchData=
 [
-  ['n_476',['n',['../structderived__type__mod_1_1derived__type.html#a9c45821f4201c786983d6e22842c046e',1,'derived_type_mod::derived_type::n()'],['../structprecon__type__mod_1_1precon__type.html#ab99e9695e8fddbedf7734177511d7822',1,'precon_type_mod::precon_type::n()']]],
-  ['ncdf_477',['ncdf',['../namespaceinterp__movie__mod.html#a311db63271eddb9e611ce15fae152bf1',1,'interp_movie_mod']]],
-  ['ne_478',['ne',['../structrestart__io__mod_1_1restartheader__t.html#ad5abcf3928347bd5e76f9914f6385a3a',1,'restart_io_mod::restartheader_t']]],
-  ['nete_479',['nete',['../structderived__type__mod_1_1derived__type.html#a6fe950638aba6ec5ab7b07dec2af8d0c',1,'derived_type_mod::derived_type::nete()'],['../structprecon__type__mod_1_1precon__type.html#a999bc310b7449169c17119be02e396a4',1,'precon_type_mod::precon_type::nete()']]],
-  ['nets_480',['nets',['../structderived__type__mod_1_1derived__type.html#ab55e196e2f09765210f1683f8f8dab07',1,'derived_type_mod::derived_type::nets()'],['../structprecon__type__mod_1_1precon__type.html#a08461cf8c0ae16fc19d0864684703859',1,'precon_type_mod::precon_type::nets()']]],
-  ['nlev_481',['nlev',['../structrestart__io__mod_1_1restartheader__t.html#ad239db6778b8dbf388ff3a99b61b1288',1,'restart_io_mod::restartheader_t']]],
-  ['np_482',['np',['../structrestart__io__mod_1_1restartheader__t.html#a8786ac679cd1a1ee4a3a77452a9b13c7',1,'restart_io_mod::restartheader_t']]],
-  ['num_5fagg_483',['num_agg',['../namespacecommon__io__mod.html#a57e3d0cc82afe824e25bc610a9e63240',1,'common_io_mod']]],
-  ['num_5fio_5fprocs_484',['num_io_procs',['../namespacecommon__io__mod.html#a0d0dad96048e4114264ae5f013342f76',1,'common_io_mod']]],
-  ['number_485',['number',['../structrestart__io__mod_1_1restartheader__t.html#a271380e0ad24829fed5ea4d4ddf9a302',1,'restart_io_mod::restartheader_t']]],
-  ['numcomponents_486',['numcomponents',['../structrestart__io__mod_1_1statedesc__t.html#afc2d2f5c144c7b9505568ca73d421743',1,'restart_io_mod::statedesc_t']]],
-  ['nv_487',['nv',['../namespacesurfaces__mod.html#a6ac97b4a1380b3fd55605f22c1123357',1,'surfaces_mod']]],
-  ['nvert_488',['nvert',['../structsurfaces__mod_1_1ctrlvol__t.html#af977d7cb5d3eb9546038c5003815f06c',1,'surfaces_mod::ctrlvol_t']]],
-  ['nwords_489',['nwords',['../structrestart__io__mod_1_1statedesc__t.html#a197831df31ec37145083c4c9330669f7',1,'restart_io_mod::statedesc_t']]],
-  ['nwordsrestartbuffer_5ft_490',['nwordsrestartbuffer_t',['../namespacerestart__io__mod.html#a76a9a5480674b6ca14807800feb50a97',1,'restart_io_mod']]]
+  ['k_6594',['k',['../structhomme_1_1cslmpi_1_1_csl_mpi_1_1_elem_data_1_1_remote_item.html#a1338cef88da416f09ba7b84b06a66413',1,'homme::cslmpi::CslMpi::ElemData::RemoteItem::k()'],['../structhomme_1_1cslmpi_1_1_csl_mpi_1_1_elem_data_1_1_own_item.html#a75a855f379c77e32265e027cdfb58873',1,'homme::cslmpi::CslMpi::ElemData::OwnItem::k()'],['../namespacebaroclinic__wave.html#a8619f63e6dd6db1077c1a18788afa359',1,'baroclinic_wave::k()']]],
+  ['k_5fa_6595',['k_a',['../namespaceheld__suarez__mod.html#ae72c843eb3254aec4df57e385b9b16ac',1,'held_suarez_mod']]],
+  ['k_5ff_6596',['k_f',['../namespaceheld__suarez__mod.html#ae4e7ae88878d9f3b08a7a94035dda25f',1,'held_suarez_mod']]],
+  ['k_5fs_6597',['k_s',['../namespaceheld__suarez__mod.html#aa53ec5ae3b7b29ec1a547d6c47db45cc',1,'held_suarez_mod']]],
+  ['kappa_6598',['kappa',['../namespacedry__planar__tests.html#a42f0153c66b96898d0e8c30230a75f93',1,'dry_planar_tests::kappa()'],['../namespacetropical__cyclone.html#a6628f4c9b12b8fa8955c46ebeb30da9d',1,'tropical_cyclone::kappa()'],['../namespacebaroclinic__wave.html#a8c6ed2e487786f2d21f8ae148f7549b6',1,'baroclinic_wave::kappa()'],['../namespacedcmip2012__test4.html#a799a4e8333a9cb3e9429195d71b907ed',1,'dcmip2012_test4::kappa()'],['../namespacedcmip12__wrapper.html#ad059e51c8d532a5ca4f6d97aedc10e82',1,'dcmip12_wrapper::kappa()'],['../namespacetestcases__3__4__5__6.html#a951704543ac6fbf5902a71d2a3615042',1,'testcases_3_4_5_6::kappa()'],['../namespacephysical__constants.html#a7f66175ea1fb6d94513f85a5b57ff6db',1,'physical_constants::kappa()'],['../namespace_homme_1_1_physical_constants.html#a3dbd54984088c69072220a929476d62f',1,'Homme::PhysicalConstants::kappa()']]],
+  ['kener_6599',['kener',['../structelement__state_1_1elem__accum__t.html#a98165add2561b91def8b0c38553770ca',1,'element_state::elem_accum_t::kener()'],['../structelement__state_1_1elem__accum__t.html#ac6c9799a80037c9c7379704552c45e4f',1,'element_state::elem_accum_t::kener()'],['../structelement__state_1_1elem__accum__t.html#aa18a5c1053183a563ec119ded6255279',1,'element_state::elem_accum_t::kener()']]],
+  ['kernel_5fend_5ftimes_6600',['kernel_end_times',['../struct_homme_1_1_caar_functor_impl_1_1_buffers.html#ae0fea06ca160908942885e55c84850af',1,'Homme::CaarFunctorImpl::Buffers']]],
+  ['kernel_5fstart_5ftimes_6601',['kernel_start_times',['../struct_homme_1_1_caar_functor_impl_1_1_buffers.html#aafc4e8d6f08c82da3f401a803f71508d',1,'Homme::CaarFunctorImpl::Buffers']]],
+  ['kids_6602',['kids',['../structcedr_1_1qlt_1_1tree_1_1_node.html#aae95dadec9c763ed43b5ce73f0eafa9e',1,'cedr::qlt::tree::Node::kids()'],['../structcedr_1_1qlt_1_1impl_1_1_node_sets_1_1_level.html#ab91cb12a201b968c34e530dc43f5931a',1,'cedr::qlt::impl::NodeSets::Level::kids()'],['../structcedr_1_1qlt_1_1impl_1_1_node_sets_1_1_node.html#a62ddeb52897d22624365a25e4cad5662',1,'cedr::qlt::impl::NodeSets::Node::kids()']]],
+  ['kids_5freq_6603',['kids_req',['../structcedr_1_1qlt_1_1impl_1_1_node_sets_1_1_level.html#adc4813ac17592bc41d7be16f6840e1b2',1,'cedr::qlt::impl::NodeSets::Level']]],
+  ['kind_6604',['kind',['../struct_homme_1_1_connection_info.html#a360e6c5732facc391e3d6062343abe0e',1,'Homme::ConnectionInfo::kind()'],['../structrestart__io__mod_1_1statedesc__t.html#aa045178c4ca56e38c53bddf916762bf6',1,'restart_io_mod::statedesc_t::kind()']]],
+  ['kmass_6605',['kmass',['../namespacecontrol__mod.html#a3b2685fbf093def7eb6a130d0e67ea3a',1,'control_mod']]],
+  ['kmass_5fswirl_6606',['kmass_swirl',['../namespaceshallow__water__mod.html#a7b953f51dd84c41c6eb88d0a4e3c6adc',1,'shallow_water_mod']]],
+  ['kway_6607',['kway',['../namespaceparams__mod.html#acdda5d0039dd1429f052327c444841f6',1,'params_mod']]]
 ];

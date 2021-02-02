@@ -1,4 +1,30 @@
 var searchData=
 [
-  ['linear_5falgebra_5fmod_2ef90_306',['linear_algebra_mod.F90',['../linear__algebra__mod_8_f90.html',1,'']]]
+  ['dcmip12_5fwrapper_2ef90_4345',['dcmip12_wrapper.F90',['../dcmip12__wrapper_8_f90.html',1,'']]],
+  ['dcmip16_5fwrapper_2ef90_4346',['dcmip16_wrapper.F90',['../dcmip16__wrapper_8_f90.html',1,'']]],
+  ['dcmip2012_5ftest1_5f2_5f3_2ef90_4347',['dcmip2012_test1_2_3.F90',['../dcmip2012__test1__2__3_8_f90.html',1,'']]],
+  ['dcmip2012_5ftest1_5fconv_2ef90_4348',['dcmip2012_test1_conv.F90',['../dcmip2012__test1__conv_8_f90.html',1,'']]],
+  ['dcmip2012_5ftest4_2ef90_4349',['dcmip2012_test4.F90',['../dcmip2012__test4_8_f90.html',1,'']]],
+  ['dcmip2012_5ftest5_2ef90_4350',['dcmip2012_test5.F90',['../dcmip2012__test5_8_f90.html',1,'']]],
+  ['dcmip2016_2dbaroclinic_2ef90_4351',['dcmip2016-baroclinic.F90',['../dcmip2016-baroclinic_8_f90.html',1,'']]],
+  ['dcmip2016_2dkessler_2ef90_4352',['dcmip2016-kessler.F90',['../dcmip2016-kessler_8_f90.html',1,'']]],
+  ['dcmip2016_2dphysics_2dz_2ef90_4353',['dcmip2016-physics-z.F90',['../dcmip2016-physics-z_8_f90.html',1,'']]],
+  ['dcmip2016_2dsimple_2dphysics_2dv5_2ef90_4354',['dcmip2016-simple-physics-v5.F90',['../dcmip2016-simple-physics-v5_8_f90.html',1,'']]],
+  ['dcmip2016_2dsimple_2dphysics_2dv6_2ef90_4355',['dcmip2016-simple-physics-v6.F90',['../dcmip2016-simple-physics-v6_8_f90.html',1,'']]],
+  ['dcmip2016_2dsupercell_2ef90_4356',['dcmip2016-supercell.F90',['../dcmip2016-supercell_8_f90.html',1,'']]],
+  ['dcmip2016_2dterminator_2ef90_4357',['dcmip2016-terminator.F90',['../dcmip2016-terminator_8_f90.html',1,'']]],
+  ['dcmip2016_2dtropical_2dcyclone_2ef90_4358',['dcmip2016-tropical-cyclone.F90',['../dcmip2016-tropical-cyclone_8_f90.html',1,'']]],
+  ['derivative_5fmod_2ef90_4359',['derivative_mod.F90',['../preqx_2derivative__mod_8_f90.html',1,'(Global Namespace)'],['../theta-l_2share_2derivative__mod_8_f90.html',1,'(Global Namespace)'],['../sweqx_2derivative__mod_8_f90.html',1,'(Global Namespace)'],['../preqx__kokkos_2derivative__mod_8_f90.html',1,'(Global Namespace)'],['../preqx__acc_2derivative__mod_8_f90.html',1,'(Global Namespace)']]],
+  ['derivative_5fmod_5fbase_2ef90_4360',['derivative_mod_base.F90',['../derivative__mod__base_8_f90.html',1,'']]],
+  ['derived_5ftype_5fmod_2ef90_4361',['derived_type_mod.F90',['../derived__type__mod_8_f90.html',1,'']]],
+  ['diagnostics_2ecpp_4362',['Diagnostics.cpp',['../theta-l__kokkos_2cxx_2_diagnostics_8cpp.html',1,'(Global Namespace)'],['../preqx__kokkos_2cxx_2_diagnostics_8cpp.html',1,'(Global Namespace)']]],
+  ['diagnostics_2ehpp_4363',['Diagnostics.hpp',['../theta-l__kokkos_2cxx_2_diagnostics_8hpp.html',1,'(Global Namespace)'],['../preqx__kokkos_2cxx_2_diagnostics_8hpp.html',1,'(Global Namespace)']]],
+  ['dimensions_2ehpp_4364',['Dimensions.hpp',['../_dimensions_8hpp.html',1,'']]],
+  ['dimensions_5fmod_2ef90_4365',['dimensions_mod.F90',['../dimensions__mod_8_f90.html',1,'']]],
+  ['dirkfunctor_2ecpp_4366',['DirkFunctor.cpp',['../_dirk_functor_8cpp.html',1,'']]],
+  ['dirkfunctor_2ehpp_4367',['DirkFunctor.hpp',['../_dirk_functor_8hpp.html',1,'']]],
+  ['dirkfunctorimpl_2ehpp_4368',['DirkFunctorImpl.hpp',['../_dirk_functor_impl_8hpp.html',1,'']]],
+  ['dof_5fmod_2ef90_4369',['dof_mod.F90',['../dof__mod_8_f90.html',1,'']]],
+  ['domain_5fmod_2ef90_4370',['domain_mod.F90',['../domain__mod_8_f90.html',1,'']]],
+  ['dry_5fplanar_2ef90_4371',['dry_planar.F90',['../dry__planar_8_f90.html',1,'']]]
 ];

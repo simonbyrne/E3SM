@@ -1,0 +1,20 @@
+var class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad =
+[
+    [ "data_type", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a7e5514b3f917ae896d05992953ea8767", null ],
+    [ "member_type", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#ac6405d8d9ea28b4a908c40c981136f7c", null ],
+    [ "tag_type", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a3acc02faa84c0be46060fabd0f350245", null ],
+    [ "type", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a00a93ac2989422de914165bf03f2c43d", null ],
+    [ "value_type", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a0c54565aa76760b2786fc407e52c8be8", null ],
+    [ "Vector", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a6a9a4134b02396fa106af6836ed6c64f", null ],
+    [ "Vector", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a668b3396f3a6a7031e3bee563fedf8c9", null ],
+    [ "Vector", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#ac46d048ca2ec40a74010a36dadd2c313", null ],
+    [ "debug_set_invalid", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a06d177312516d8b7097275ea56550f6c", null ],
+    [ "loadAligned", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a6fd90e9022d02ce251b5e035af724d88", null ],
+    [ "loadUnaligned", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a4fc8a41a619de266aa2e467d13fce78c", null ],
+    [ "operator[]", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a2b88fc381b17aa4e5f73a1f559e06cc4", null ],
+    [ "reduce_add", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a9080ed0d70df97c10268e12f767eb65c", null ],
+    [ "shift_left", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a213ce1aab7023dced25848ac146daefc", null ],
+    [ "shift_right", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#ae1843e8bf01a6e8e60ff10f82d16c858", null ],
+    [ "storeAligned", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#aebed7514e3d1b3d859e72eb9ec95ff03", null ],
+    [ "storeUnaligned", "class_kokkos_kernels_1_1_batched_1_1_experimental_1_1_vector_3_01_vector_tag_3_01_s_i_m_d_3_01_tdaa3547a90274321873b049f53d3e6ad.html#a4d27ecac5c7a414cb8ac1495c33ad4a4", null ]
+];

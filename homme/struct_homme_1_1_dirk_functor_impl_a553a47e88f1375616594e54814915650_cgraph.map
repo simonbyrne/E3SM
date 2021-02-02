@@ -1,0 +1,39 @@
+<map id="Homme::DirkFunctorImpl::run_newton" name="Homme::DirkFunctorImpl::run_newton">
+<area shape="rect" id="node1" title=" " alt="" coords="5,560,172,601"/>
+<area shape="rect" id="node2" href="$struct_homme_1_1_dirk_functor_impl.html#ad2bb0654a9d028faa8f136f293902a2b" title=" " alt="" coords="225,5,391,47"/>
+<area shape="rect" id="node3" href="$struct_homme_1_1_dirk_functor_impl.html#ac2a8cf41d71c13c423ab248c1f9426bf" title=" " alt="" coords="225,71,391,112"/>
+<area shape="rect" id="node5" href="$struct_homme_1_1_dirk_functor_impl.html#a3adfd04dd5251eaa7542e40bd80cee04" title=" " alt="" coords="225,253,391,295"/>
+<area shape="rect" id="node6" href="$struct_homme_1_1_dirk_functor_impl.html#a4ccff1a1c8441c2ca1bf4c146f85e421" title=" " alt="" coords="447,308,613,349"/>
+<area shape="rect" id="node7" href="$struct_homme_1_1_kernel_variables.html#aff37ae38e7e4f4bc28b72fe167572cd6" title=" " alt="" coords="447,396,613,437"/>
+<area shape="rect" id="node8" href="$struct_homme_1_1_dirk_functor_impl.html#a81b5136d79fe85b544708cab3a1ca1a2" title=" " alt="" coords="225,319,391,360"/>
+<area shape="rect" id="node9" href="$struct_homme_1_1_dirk_functor_impl.html#a91451cda2de85e1624b5376c6cae7893" title=" " alt="" coords="220,384,396,425"/>
+<area shape="rect" id="node10" href="$struct_homme_1_1_dirk_functor_impl.html#ab72c4b923177016f64e0db275c5797c7" title=" " alt="" coords="225,749,391,791"/>
+<area shape="rect" id="node12" href="$struct_homme_1_1_dirk_functor_impl.html#ae7960c37222103c9425822489f3a0ef1" title=" " alt="" coords="225,684,391,725"/>
+<area shape="rect" id="node13" href="$struct_homme_1_1_dirk_functor_impl.html#a4c85036926e6c2f555f24f565bb179be" title=" " alt="" coords="447,859,613,900"/>
+<area shape="rect" id="node14" href="$namespace_homme.html#a2fb615d1c0ef9769f9fe6ff030f5af5e" title=" " alt="" coords="702,866,825,893"/>
+<area shape="rect" id="node15" href="$struct_homme_1_1_dirk_functor_impl.html#a2ce1285927e9484349e45450958cf5b4" title=" " alt="" coords="447,924,613,965"/>
+<area shape="rect" id="node16" href="$struct_homme_1_1_dirk_functor_impl.html#a0852061e230d0e46651f404401b3e3fe" title=" " alt="" coords="225,501,391,543"/>
+<area shape="rect" id="node21" href="$struct_homme_1_1_dirk_functor_impl.html#a261c733c3be6b14ca97ce4d167cebe5d" title=" " alt="" coords="447,557,613,599"/>
+<area shape="rect" id="node22" href="$struct_homme_1_1_dirk_functor_impl.html#ad42290f30bc15bdcca5d08b09b35b2f5" title=" " alt="" coords="220,619,396,660"/>
+<area shape="rect" id="node25" href="$struct_homme_1_1_dirk_functor_impl.html#a1f3aa2f68c73bded6307bf0a63835bd5" title=" " alt="" coords="225,136,391,177"/>
+<area shape="rect" id="node26" href="$struct_homme_1_1_dirk_functor_impl.html#abc314dac1110aeebebd6d1ca8fa7ee8a" title=" " alt="" coords="225,1040,391,1081"/>
+<area shape="rect" id="node33" href="$struct_homme_1_1_dirk_functor_impl.html#ab5831cc2145e27a1bdc82cf2dbc94eaf" title=" " alt="" coords="225,973,391,1015"/>
+<area shape="rect" id="node37" href="$struct_homme_1_1_dirk_functor_impl.html#a39a90f678adac5e26c0b4615b096d256" title=" " alt="" coords="225,1105,391,1147"/>
+<area shape="rect" id="node4" href="$namespace_homme.html#a8df903ffba928e93e306202109fa9141" title=" " alt="" coords="473,78,587,105"/>
+<area shape="rect" id="node11" href="$namespace_homme.html#a103d631703618e0820c07f4bf5f31c24" title=" " alt="" coords="481,723,579,750"/>
+<area shape="rect" id="node17" href="$class_homme_1_1_equation_of_state.html#a3eac62e99215950fd8507ccfc7b94378" title=" " alt="" coords="445,492,615,533"/>
+<area shape="rect" id="node18" href="$namespace_homme.html#a5a7a17da3046443d1ab26bc7194e37d4" title=" " alt="" coords="702,529,825,555"/>
+<area shape="rect" id="node20" href="$namespace_kokkos_kernels_1_1_batched_1_1_experimental.html#aa1b10a21c957fb20c3ccc70c57fe7e93" title=" " alt="" coords="681,463,845,504"/>
+<area shape="rect" id="node19" href="$namespace_homme.html#a716d4d0929400035e7dc42c74210d2b6" title=" " alt="" coords="925,529,1079,555"/>
+<area shape="rect" id="node23" href="$class_homme_1_1_equation_of_state.html#a3230bfa9a71caaef91f6121279bc86f6" title=" " alt="" coords="444,623,616,664"/>
+<area shape="rect" id="node24" href="$class_homme_1_1_column_ops.html#a89a0f04a80b6c0516ce96849aad605b8" title=" " alt="" coords="664,623,863,664"/>
+<area shape="rect" id="node27" href="$namespacescream_1_1tridiag.html#adaae7c88733cd352dd3009f48a32aea8" title=" " alt="" coords="702,1049,825,1075"/>
+<area shape="rect" id="node30" href="$namespacescream_1_1tridiag.html#a9f3fbcf7c5799f7314ed025209c9428b" title=" " alt="" coords="453,1107,607,1134"/>
+<area shape="rect" id="node28" href="$namespacescream_1_1tridiag_1_1impl.html#ac2f855cf657a6616a0abfe9aef2fae9f" title=" " alt="" coords="934,1151,1070,1192"/>
+<area shape="rect" id="node29" href="$namespacescream_1_1tridiag_1_1impl.html#a1393b2c9d79c6405590438bf7dbdcde1" title=" " alt="" coords="911,1071,1093,1112"/>
+<area shape="rect" id="node31" href="$namespacescream_1_1tridiag_1_1impl.html#ada506d6e0f1c1bf4b938cb7837f8a1df" title=" " alt="" coords="695,1100,831,1141"/>
+<area shape="rect" id="node32" href="$namespacescream_1_1tridiag_1_1impl.html#a13bf1a4f455b18988f918bbec5216b87" title=" " alt="" coords="695,1165,831,1207"/>
+<area shape="rect" id="node34" href="$namespacescream_1_1tridiag.html#a3442f28bf93b0c32e55dafb50c32e0fc" title=" " alt="" coords="465,990,595,1017"/>
+<area shape="rect" id="node35" href="$namespacescream_1_1tridiag_1_1impl.html#a1ca0171cfee6604807123ede1ab3a3a1" title=" " alt="" coords="687,983,839,1024"/>
+<area shape="rect" id="node36" href="$namespacescream_1_1tridiag_1_1impl.html#a085e8eb2ecefd0a4e76a828b7fcae493" title=" " alt="" coords="695,917,831,959"/>
+</map>

@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['rawarrayraft_4056',['RawArrayRaft',['../structcedr_1_1util_1_1_raw_array_raft.html',1,'cedr::util']]],
+  ['rawarrayraft_3c_20real_2c_20exespace_20_3e_4057',['RawArrayRaft&lt; Real, ExeSpace &gt;',['../structcedr_1_1util_1_1_raw_array_raft.html',1,'cedr::util']]],
+  ['real2_4058',['Real2',['../struct_kokkos_1_1_real2.html',1,'Kokkos']]],
+  ['reduction_5fidentity_3c_20homme_3a_3ascalar_20_3e_4059',['reduction_identity&lt; Homme::Scalar &gt;',['../struct_kokkos_1_1reduction__identity_3_01_homme_1_1_scalar_01_4.html',1,'Kokkos']]],
+  ['reduction_5fidentity_3c_20real2_20_3e_4060',['reduction_identity&lt; Real2 &gt;',['../struct_kokkos_1_1reduction__identity_3_01_real2_01_4.html',1,'Kokkos']]],
+  ['reductionbuffer_5fint_5f1d_5ft_4061',['reductionbuffer_int_1d_t',['../structreduction__mod_1_1reductionbuffer__int__1d__t.html',1,'reduction_mod']]],
+  ['reductionbuffer_5fordered_5f1d_5ft_4062',['reductionbuffer_ordered_1d_t',['../structreduction__mod_1_1reductionbuffer__ordered__1d__t.html',1,'reduction_mod']]],
+  ['reductionbuffer_5fr_5f1d_5ft_4063',['reductionbuffer_r_1d_t',['../structreduction__mod_1_1reductionbuffer__r__1d__t.html',1,'reduction_mod']]],
+  ['referenceelement_4064',['ReferenceElement',['../class_homme_1_1_reference_element.html',1,'Homme']]],
+  ['refstates_4065',['RefStates',['../struct_homme_1_1_ref_states.html',1,'Homme']]],
+  ['remapdata_4066',['RemapData',['../struct_homme_1_1_remap_1_1_remap_functor_1_1_remap_data.html',1,'Homme::Remap::RemapFunctor']]],
+  ['remapfunctor_4067',['RemapFunctor',['../struct_homme_1_1_remap_1_1_remap_functor.html',1,'Homme::Remap']]],
+  ['remapper_4068',['Remapper',['../struct_homme_1_1_remap_1_1_remapper.html',1,'Homme::Remap']]],
+  ['remapstateandthicknessprovider_4069',['RemapStateAndThicknessProvider',['../struct_homme_1_1_remap_1_1_remap_state_and_thickness_provider.html',1,'Homme::Remap']]],
+  ['remapstateandthicknessprovider_3c_20false_20_3e_4070',['RemapStateAndThicknessProvider&lt; false &gt;',['../struct_homme_1_1_remap_1_1_remap_state_and_thickness_provider_3_01false_01_4.html',1,'Homme::Remap']]],
+  ['remapstateandthicknessprovider_3c_20true_20_3e_4071',['RemapStateAndThicknessProvider&lt; true &gt;',['../struct_homme_1_1_remap_1_1_remap_state_and_thickness_provider_3_01true_01_4.html',1,'Homme::Remap']]],
+  ['remapstateprovider_4072',['RemapStateProvider',['../struct_homme_1_1_remap_1_1_remap_state_provider.html',1,'Homme::Remap']]],
+  ['remoteitem_4073',['RemoteItem',['../structhomme_1_1cslmpi_1_1_csl_mpi_1_1_elem_data_1_1_remote_item.html',1,'homme::cslmpi::CslMpi::ElemData']]],
+  ['reprosumreducer_4074',['ReproSumReducer',['../structhomme_1_1_repro_sum_reducer.html',1,'homme']]],
+  ['request_4075',['Request',['../structcedr_1_1mpi_1_1_request.html',1,'cedr::mpi::Request'],['../structhomme_1_1mpi_1_1_request.html',1,'homme::mpi::Request']]],
+  ['restartbuffer_5ft_4076',['restartbuffer_t',['../structrestart__io__mod_1_1restartbuffer__t.html',1,'restart_io_mod']]],
+  ['restartheader_5ft_4077',['restartheader_t',['../structrestart__io__mod_1_1restartheader__t.html',1,'restart_io_mod']]],
+  ['rk_5ft_4078',['rk_t',['../structtypes__mod_1_1rk__t.html',1,'types_mod']]],
+  ['rkstagedata_4079',['RKStageData',['../struct_homme_1_1_r_k_stage_data.html',1,'Homme']]]
+];

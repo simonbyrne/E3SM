@@ -1,0 +1,27 @@
+var struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap =
+[
+    [ "PpmVertRemap", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#af0ac97eadc8a57ce516bb8739afddbd2", null ],
+    [ "compute_grids", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#aafe2a7c4231c9dc56a4773c4395c15e0", null ],
+    [ "compute_grids_phase", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#a61341d0a72e8c050e92eb3cf5ecca63b", null ],
+    [ "compute_integral_bounds", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#ad6bdcd012c7282e56780efaa2e9edd35", null ],
+    [ "compute_mass", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#a1c149b162fc088627a0ed1a01cc39bfa", null ],
+    [ "compute_partitions", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#aa052993ac9c0143802cd415f0be0eafe", null ],
+    [ "compute_ppm", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#ad12bf7db13e7f0ae00a621b4cb28b981", null ],
+    [ "compute_remap", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#a88ef75a8a86e0ae7256481a752f8e42f", null ],
+    [ "compute_remap", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#ad435aca646998b26bcfd4a0cc157f438", null ],
+    [ "compute_remap_phase", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#a4f0b25a7cae24344f8074f8a4cd739c8", null ],
+    [ "integrate_parabola", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#a43b9b407ec1d926a8f912f9127bb67e6", null ],
+    [ "gs", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#ac793deb19b5aeaaa0d14412ccc95b75c", null ],
+    [ "m_ai", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#a6420f58d1592a307db020163e95322ee", null ],
+    [ "m_ao", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#ae7495be3218b999d621957a1cafd58a5", null ],
+    [ "m_dma", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#aacc464e04b1778e606180fadb439377f", null ],
+    [ "m_dpo", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#ab40f304d7155d53d1b3a0f16a38b0b5f", null ],
+    [ "m_kid", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#ab9a4170183890820dc355540eed1f2c9", null ],
+    [ "m_mass_o", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#a2da9d12324b83b62d6cac89edea72366", null ],
+    [ "m_parabola_coeffs", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#ab02fb3a85feec35e1a8562c3d3618978", null ],
+    [ "m_pin", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#a36802169244ade0cdc6c234f57e994d1", null ],
+    [ "m_pio", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#aa969aaba1d67ab117c1a45d3d3569e2e", null ],
+    [ "m_ppm_tu", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#abeea110f8c1ed8ebb694a835064a3418", null ],
+    [ "m_ppmdx", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#ab43d66f2496b3c1119034cba733861f9", null ],
+    [ "m_z2", "struct_homme_1_1_remap_1_1_ppm_1_1_ppm_vert_remap.html#a458e73178f6f7477f5773921da9dc8fd", null ]
+];

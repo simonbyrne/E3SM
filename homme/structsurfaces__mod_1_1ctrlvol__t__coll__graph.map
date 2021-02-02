@@ -1,6 +1,6 @@
 <map id="surfaces_mod::ctrlvol_t" name="surfaces_mod::ctrlvol_t">
-<area shape="rect" id="node1" title=" " alt="" coords="100,109,259,136"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,105,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="129,5,229,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="254,5,374,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="283,78,439,105"/>
+<area shape="rect" id="node2" href="$structcoordinate__systems__mod_1_1cartesian3d__t.html" title=" " alt="" coords="15,5,154,47"/>
+<area shape="rect" id="node3" href="$structcoordinate__systems__mod_1_1cartesian2d__t.html" title=" " alt="" coords="15,71,154,112"/>
+<area shape="rect" id="node4" href="$structcoordinate__systems__mod_1_1spherical__polar__t.html" title=" " alt="" coords="5,136,164,177"/>
 </map>

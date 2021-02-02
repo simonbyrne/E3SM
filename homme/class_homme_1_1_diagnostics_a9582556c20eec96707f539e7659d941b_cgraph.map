@@ -1,0 +1,10 @@
+<map id="Homme::Diagnostics::prim_energy_halftimes" name="Homme::Diagnostics::prim_energy_halftimes">
+<area shape="rect" id="node1" title=" " alt="" coords="5,148,164,189"/>
+<area shape="rect" id="node2" href="$class_homme_1_1_context.html#a19ee421d6774a6e2ac19f03593e63ef5" title=" " alt="" coords="231,13,373,39"/>
+<area shape="rect" id="node4" href="$namespace_kokkos_kernels_1_1_batched_1_1_experimental.html#aa1b10a21c957fb20c3ccc70c57fe7e93" title=" " alt="" coords="220,64,384,105"/>
+<area shape="rect" id="node5" href="$class_homme_1_1_context.html#a3524e246c3670a238eb8f7893618cd18" title=" " alt="" coords="214,130,390,157"/>
+<area shape="rect" id="node6" href="$namespace_homme.html#a2fb615d1c0ef9769f9fe6ff030f5af5e" title=" " alt="" coords="241,181,363,207"/>
+<area shape="rect" id="node7" href="$struct_homme_1_1_time_level.html#aa686aa843f897bcee56b9cbd0420faf3" title=" " alt="" coords="212,232,392,273"/>
+<area shape="rect" id="node8" href="$namespacephysics__mod.html#a93bc55196ba853e80fdf0e3171b0162b" title=" " alt="" coords="233,297,371,339"/>
+<area shape="rect" id="node3" href="$namespace_homme_1_1_errors.html#a95dbb20d9e1350b7ca3e7c342c6bcb0b" title=" " alt="" coords="440,5,597,47"/>
+</map>

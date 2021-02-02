@@ -91,16 +91,16 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span> </div>
 <div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="namespacepio__io__mod.html">    5</a></span>&#160;<span class="keyword">module</span> <a class="code" href="namespacepio__io__mod.html">pio_io_mod</a></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef HOMME_WITHOUT_PIOLIBRARY</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span>  <span class="keywordtype">use </span>kinds, <span class="keywordtype">only</span> : int_kind, real_kind</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span>  <span class="keywordtype">use </span><a class="code" href="namespacekinds.html">kinds</a>, <span class="keywordtype">only</span> : <a class="code" href="namespacekinds.html#a3df43a1a47df308ae70f8f8e98d9337c">int_kind</a>, <a class="code" href="namespacekinds.html#abddc5e60584151b4d48b02e6436330f3">real_kind</a></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  <span class="keywordtype">use </span>pio, nfsizekind=&gt;pio_offset_kind <span class="comment">! _EXTERNAL</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  <span class="keywordtype">use </span>pio_types <span class="comment">! _EXTERNAL</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#ifdef _MPI</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor"></span>  <span class="comment">!HOMME Specific:  abortmp, mpireal_t, mpiinteger_t</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <span class="keywordtype">use </span>parallel_mod, <span class="keywordtype">only</span> : abortmp,  mpi_info_null, mpireal_t,  mpiinteger_t, &amp;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <span class="keywordtype">use </span><a class="code" href="namespaceparallel__mod.html">parallel_mod</a>, <span class="keywordtype">only</span> : <a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>,  mpi_info_null, <a class="code" href="namespaceparallel__mod.html#a05500c89fdc3fde95699a4463ce065b9">mpireal_t</a>,  <a class="code" href="namespaceparallel__mod.html#a37c8b0c9791e659962e476f5aa33c763">mpiinteger_t</a>, &amp;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;       mpi_integer, mpi_sum</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor"></span>  <span class="comment">!HOMME Specific: abortmp, mpireal_t,mpiinteger_t</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="keywordtype">use </span>parallel_mod, <span class="keywordtype">only</span> : abortmp, mpireal_t, mpiinteger_t</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="keywordtype">use </span><a class="code" href="namespaceparallel__mod.html">parallel_mod</a>, <span class="keywordtype">only</span> : <a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>, <a class="code" href="namespaceparallel__mod.html#a05500c89fdc3fde95699a4463ce065b9">mpireal_t</a>, <a class="code" href="namespaceparallel__mod.html#a37c8b0c9791e659962e476f5aa33c763">mpiinteger_t</a></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">!  use kinds, only : nfsizekind=&gt;int_kind</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span>  <span class="keywordtype">use </span><a class="code" href="namespacecommon__io__mod.html">common_io_mod</a>, <span class="keywordtype">only</span> : <a class="code" href="namespacecommon__io__mod.html#ab1b4841f8ddb53de1c4651b3aa7e22cd">varname_len</a>, <a class="code" href="namespacecommon__io__mod.html#a986262c04637902ecf89e7980ce229de">output_start_time</a>, <a class="code" href="namespacecommon__io__mod.html#a8a09a101a6dd8c5a652bcc8360f7bb62">output_end_time</a>, &amp;</div>
@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;       <a class="code" href="namespacecommon__io__mod.html#a0d0dad96048e4114264ae5f013342f76">num_io_procs</a>, <a class="code" href="namespacecommon__io__mod.html#a57e3d0cc82afe824e25bc610a9e63240">num_agg</a>, <a class="code" href="namespacecommon__io__mod.html#ae16c8eee6593aeb117d1dbd54ca01685">io_stride</a>, <a class="code" href="namespacecommon__io__mod.html#a440f12081cf3cd48d4f060e77ae7449c">output_dir</a>, <a class="code" href="namespacecommon__io__mod.html#a31427b5d8e7bce33e0c094437797065d">output_prefix</a>, <a class="code" href="namespacecommon__io__mod.html#a4c62bae6ff6df76a106c5666253fc26e">max_output_variables</a>, &amp;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;       <a class="code" href="namespacecommon__io__mod.html#a007f447f5a8c9cccd25b8467b3ce6489">nf_selectedvar</a>, <a class="code" href="namespacecommon__io__mod.html#ad974f75b9bca632811a6c0327146ad77">get_varindex</a>, <a class="code" href="namespacecommon__io__mod.html#a08ea92951334229524d575c7ea2ee1d3">get_current_varnames</a>, <a class="code" href="namespacecommon__io__mod.html#ac917ca5c263ef984bf46c4c4959e2c96">output_type</a>, &amp;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;       nf_dim, nf_variable, nf_handle, <a class="code" href="namespacecommon__io__mod.html#ae15b659a6d25ad40e54eacfca06a999b">beginstate</a>, <a class="code" href="namespacecommon__io__mod.html#a1d00d3617548f1ed0911865f22645da4">dimsstate</a>, <a class="code" href="namespacecommon__io__mod.html#a89c8c8d6ef6bb591490e7d25bcdf814b">varsstate</a>, <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a>, nf_decomp, <a class="code" href="namespacecommon__io__mod.html#ac700013880583d7dd9772104e51d7f2b">piofs</a></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keywordtype">use </span>control_mod, <span class="keywordtype">only</span> : max_string_len         <span class="comment">!HOMME Specific: MAX_STRING_LEN</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keywordtype">use </span><a class="code" href="namespacecontrol__mod.html">control_mod</a>, <span class="keywordtype">only</span> : <a class="code" href="namespacecontrol__mod.html#a5c6a4faa3d47a6705630d416e735c8c5">max_string_len</a>         <span class="comment">!HOMME Specific: MAX_STRING_LEN</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordtype">implicit none</span>  </div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">!  private   </span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">!commented out the above private line because gfortran has trouble:</span></div>
@@ -172,7 +172,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">if</span>(ncdf%state /= <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a>) <span class="keywordflow">then</span></div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;       print *,__file__,__line__,ncdf%state, <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a>       </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;sanity check failed, bad file handle&#39;</span>)</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;sanity check failed, bad file handle&#39;</span>)</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">present</span>(varid)) <span class="keywordflow">then</span></div>
@@ -181,7 +181,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;       vindex = <a class="code" href="namespacecommon__io__mod.html#ad974f75b9bca632811a6c0327146ad77">get_varindex</a>(name, ncdf%varlist)    </div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;       varptr =&gt; ncdf%varlist(vindex)</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;one of the optional arguments name and varid must be provided&#39;</span>)   </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;one of the optional arguments name and varid must be provided&#39;</span>)   </div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">if</span>(varptr%ndims&gt;0) <span class="keywordflow">then</span></div>
@@ -191,14 +191,14 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;       extent=1</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;function not supported&#39;</span>)</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;function not supported&#39;</span>)</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="comment">!$OMP END SINGLE</span></div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <span class="keyword">end subroutine </span><a class="code" href="namespacepio__io__mod.html#a748f00f98f5f0b5128d3889bfc7cc238">nf_put0di</a></div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
 <div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="interfacepio__io__mod_1_1nf__put__var__pio.html#af7b6523e2702f80823021b67422b0ce6">  112</a></span>&#160;  <span class="keyword">subroutine </span><a class="code" href="namespacepio__io__mod.html#ae82349516ac7814a292859bad6f1249c">nf_put0dr</a>(ncdf, var, start, count, varid, name)</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordtype">type</span>(nf_handle), <span class="keywordtype">intent(inout)</span> :: ncdf</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keywordtype">    real</span>(kind=real_kind), <span class="keywordtype">intent(in)</span> :: var</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keywordtype">    real</span>(kind=<a class="code" href="namespacekinds.html#abddc5e60584151b4d48b02e6436330f3">real_kind</a>), <span class="keywordtype">intent(in)</span> :: var</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordtype">integer(kind=nfsizekind)</span>, <span class="keywordtype">intent(in)</span> :: start(:), count(:)</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordtype">type</span>(nf_variable), <span class="keywordtype">intent(in)</span>, <span class="keywordtype">optional</span>, <span class="keywordtype">target</span> :: varid</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordtype">character*(*)</span>, <span class="keywordtype">intent(in)</span>,<span class="keywordtype">optional</span> :: name</div>
@@ -208,7 +208,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="comment">!$OMP SINGLE</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordflow">if</span>(ncdf%state /= <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a>) <span class="keywordflow">then</span></div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;       print *,__file__,__line__,ncdf%state, <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a> </div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;sanity check failed, bad file handle&#39;</span>)</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;sanity check failed, bad file handle&#39;</span>)</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">present</span>(varid)) <span class="keywordflow">then</span></div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;       varptr=&gt;varid</div>
@@ -216,7 +216,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;       vindex = <a class="code" href="namespacecommon__io__mod.html#ad974f75b9bca632811a6c0327146ad77">get_varindex</a>(name, ncdf%varlist)    </div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;       varptr =&gt; ncdf%varlist(vindex)</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;one of the optional arguments name and varid must be provided&#39;</span>)   </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;one of the optional arguments name and varid must be provided&#39;</span>)   </div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">if</span>(varptr%timedependent) <span class="keywordflow">then</span></div>
@@ -243,7 +243,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordflow">if</span>(ncdf%state /= <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a>) <span class="keywordflow">then</span></div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;       print *,__file__,__line__,ncdf%state, <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a>       </div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;sanity check failed, bad file handle&#39;</span>)</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;sanity check failed, bad file handle&#39;</span>)</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">present</span>(varid)) <span class="keywordflow">then</span></div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;       varptr=&gt;varid</div>
@@ -251,7 +251,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;       vindex = <a class="code" href="namespacecommon__io__mod.html#ad974f75b9bca632811a6c0327146ad77">get_varindex</a>(name, ncdf%varlist)    </div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;       varptr =&gt; ncdf%varlist(vindex)</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;one of the optional arguments name and varid must be provided&#39;</span>)   </div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;one of the optional arguments name and varid must be provided&#39;</span>)   </div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">if</span>(varptr%timedependent) <span class="keyword">call </span>pio_setframe(ncdf%FileID,varptr%vardesc,start(2))</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keyword">nullify</span>(iodesc)</div>
@@ -262,7 +262,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="keywordflow">       end if</span></div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="keywordflow">    end do</span></div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordflow">if</span>(.not. <span class="keyword">associated</span>(iodesc)) <span class="keywordflow">then</span></div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;no iodesc found for variable&#39;</span>)</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;no iodesc found for variable&#39;</span>)</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keyword">call </span>pio_write_darray(ncdf%FileID, varptr%vardesc, iodesc, var, ierr)</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
@@ -271,7 +271,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160; </div>
 <div class="line"><a name="l00185"></a><span class="lineno"><a class="line" href="interfacepio__io__mod_1_1nf__put__var__pio.html#a1f136473b940a319f4b3f3255b45eb81">  185</a></span>&#160;  <span class="keyword">subroutine </span><a class="code" href="namespacepio__io__mod.html#a5b48ab88e011a19f9a47d83d94e74b11">nf_put1dr</a>(ncdf, var, start, count, varid, name)</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordtype">type</span>(nf_handle), <span class="keywordtype">intent(inout)</span> :: ncdf</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="keywordtype">    real</span>(kind=real_kind), <span class="keywordtype">intent(in)</span> :: var(:)</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="keywordtype">    real</span>(kind=<a class="code" href="namespacekinds.html#abddc5e60584151b4d48b02e6436330f3">real_kind</a>), <span class="keywordtype">intent(in)</span> :: var(:)</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordtype">integer(kind=nfsizekind)</span>, <span class="keywordtype">intent(in)</span> :: start(:), count(:)</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordtype">type</span>(nf_variable), <span class="keywordtype">intent(in)</span>, <span class="keywordtype">optional</span>, <span class="keywordtype">target</span> :: varid</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordtype">character*(*)</span>, <span class="keywordtype">intent(in)</span>,<span class="keywordtype">optional</span> :: name</div>
@@ -284,7 +284,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordflow">if</span>(ncdf%state /= <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a>) <span class="keywordflow">then</span></div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;       print *,__file__,__line__,ncdf%state, <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a>       </div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;sanity check failed, bad file handle&#39;</span>)</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;sanity check failed, bad file handle&#39;</span>)</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">present</span>(varid)) <span class="keywordflow">then</span></div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;       varptr=&gt;varid</div>
@@ -292,7 +292,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;       vindex = <a class="code" href="namespacecommon__io__mod.html#ad974f75b9bca632811a6c0327146ad77">get_varindex</a>(name, ncdf%varlist)    </div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;       varptr =&gt; ncdf%varlist(vindex)</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;one of the optional arguments name and varid must be provided&#39;</span>)   </div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;one of the optional arguments name and varid must be provided&#39;</span>)   </div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    ndims=<span class="keyword">size</span>(start)   </div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordflow">if</span>(varptr%timedependent) <span class="keywordflow">then</span></div>
@@ -307,7 +307,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="keywordflow">       end if</span></div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="keywordflow">    end do</span></div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="keywordflow">if</span>(.not. <span class="keyword">associated</span>(iodesc)) <span class="keywordflow">then</span></div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;no iodesc found for variable&#39;</span>)</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;no iodesc found for variable&#39;</span>)</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keyword">call </span>pio_write_darray(ncdf%FileID, varptr%vardesc, iodesc, var, ierr)</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160; </div>
@@ -315,7 +315,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;  <span class="keyword">end subroutine </span><a class="code" href="namespacepio__io__mod.html#a5b48ab88e011a19f9a47d83d94e74b11">nf_put1dr</a></div>
 <div class="line"><a name="l00229"></a><span class="lineno"><a class="line" href="interfacepio__io__mod_1_1nf__put__var__pio.html#a6b060e37bf19a8fbf6e95f1cc0142458">  229</a></span>&#160;  <span class="keyword">subroutine </span><a class="code" href="namespacepio__io__mod.html#af28d1e190b95742496761c3681f9beab">nf_put2dr</a>(ncdf, var, start, count, varid, name)</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordtype">type</span>(nf_handle), <span class="keywordtype">intent(inout)</span> :: ncdf</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="keywordtype">    real</span>(kind=real_kind), <span class="keywordtype">intent(in)</span> :: var(:,:)</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="keywordtype">    real</span>(kind=<a class="code" href="namespacekinds.html#abddc5e60584151b4d48b02e6436330f3">real_kind</a>), <span class="keywordtype">intent(in)</span> :: var(:,:)</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keywordtype">integer(kind=nfsizekind)</span>, <span class="keywordtype">intent(in)</span> :: start(:), count(:)</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keywordtype">type</span>(nf_variable), <span class="keywordtype">intent(in)</span>, <span class="keywordtype">optional</span>, <span class="keywordtype">target</span> :: varid</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="keywordtype">character*(*)</span>, <span class="keywordtype">intent(in)</span>,<span class="keywordtype">optional</span> :: name</div>
@@ -327,7 +327,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="comment">!$OMP SINGLE</span></div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordflow">if</span>(ncdf%state /= <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a>) <span class="keywordflow">then</span></div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;       print *,__file__,__line__,ncdf%state, <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a>       </div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;sanity check failed, bad file handle&#39;</span>)</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;sanity check failed, bad file handle&#39;</span>)</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">present</span>(varid)) <span class="keywordflow">then</span></div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;       varptr=&gt;varid</div>
@@ -335,7 +335,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;       vindex = <a class="code" href="namespacecommon__io__mod.html#ad974f75b9bca632811a6c0327146ad77">get_varindex</a>(name, ncdf%varlist)    </div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;       varptr =&gt; ncdf%varlist(vindex)</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;one of the optional arguments name and varid must be provided&#39;</span>)   </div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;one of the optional arguments name and varid must be provided&#39;</span>)   </div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordflow">if</span>(varptr%timedependent) <span class="keywordflow">then</span></div>
@@ -351,7 +351,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="keywordflow">       end if</span></div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="keywordflow">    end do</span></div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="keywordflow">if</span>(.not. <span class="keyword">associated</span>(iodesc)) <span class="keywordflow">then</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;no iodesc found for variable&#39;</span>)</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;no iodesc found for variable&#39;</span>)</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <span class="keyword">call </span>pio_write_darray(ncdf%FileID, varptr%vardesc, iodesc, reshape(var,(/msize/)), ierr)</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160; </div>
@@ -361,7 +361,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160; </div>
 <div class="line"><a name="l00275"></a><span class="lineno"><a class="line" href="interfacepio__io__mod_1_1nf__put__var__pio.html#aaa33c19be242128222e2693b03682b86">  275</a></span>&#160;  <span class="keyword">subroutine </span><a class="code" href="namespacepio__io__mod.html#ab2471b3b477f0e423728838a2f45caf7">nf_put3dr</a>(ncdf, var, start, count, varid, name)</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <span class="keywordtype">type</span>(nf_handle), <span class="keywordtype">intent(in)</span> :: ncdf</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="keywordtype">    real</span>(kind=real_kind), <span class="keywordtype">intent(in)</span> :: var(:,:,:)</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="keywordtype">    real</span>(kind=<a class="code" href="namespacekinds.html#abddc5e60584151b4d48b02e6436330f3">real_kind</a>), <span class="keywordtype">intent(in)</span> :: var(:,:,:)</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="keywordtype">integer(kind=nfsizekind)</span>, <span class="keywordtype">intent(in)</span> :: start(:), count(:)</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="keywordtype">type</span>(nf_variable), <span class="keywordtype">intent(in)</span>, <span class="keywordtype">optional</span>, <span class="keywordtype">target</span> :: varid</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordtype">character*(*)</span>, <span class="keywordtype">intent(in)</span>,<span class="keywordtype">optional</span> :: name</div>
@@ -371,7 +371,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="comment">!$OMP SINGLE</span></div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="keywordflow">if</span>(ncdf%state /= <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a>) <span class="keywordflow">then</span></div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;       print *,__file__,__line__,ncdf%state, <a class="code" href="namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a">readystate</a>       </div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;sanity check failed, bad file handle&#39;</span>)</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;sanity check failed, bad file handle&#39;</span>)</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">present</span>(varid)) <span class="keywordflow">then</span></div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;       varptr=&gt;varid</div>
@@ -379,9 +379,9 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;       vindex = <a class="code" href="namespacecommon__io__mod.html#ad974f75b9bca632811a6c0327146ad77">get_varindex</a>(name, ncdf%varlist)    </div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;       varptr =&gt; ncdf%varlist(vindex)</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;       <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;one of the optional arguments name and varid must be provided&#39;</span>)   </div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;one of the optional arguments name and varid must be provided&#39;</span>)   </div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="keywordflow">    end if</span></div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;function not supported&#39;</span>)</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;function not supported&#39;</span>)</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="comment">!$OMP END SINGLE</span></div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;  <span class="keyword">end subroutine </span><a class="code" href="namespacepio__io__mod.html#ab2471b3b477f0e423728838a2f45caf7">nf_put3dr</a></div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160; </div>
@@ -457,14 +457,14 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;             <span class="keyword">allocate</span>(tmpdecomplist(olddecompcnt),stat=ierr)</div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;             <span class="keywordflow">if</span>(ierr.ne.0) <span class="keywordflow">then</span> </div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;                print *, __line__, ierr,olddecompcnt</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;                <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;                <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;<span class="keywordflow">             end if</span></div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;             tmpdecomplist = ncdf%decomplist</div>
 <div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;             <span class="keyword">deallocate</span>(ncdf%decomplist)</div>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;             <span class="keyword">allocate</span>(ncdf%decomplist(olddecompcnt+1),stat=ierr)</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;             <span class="keywordflow">if</span>(ierr.ne.0) <span class="keywordflow">then</span> </div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;                print *, __line__, ierr,olddecompcnt+1</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="keywordflow">             end if</span></div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;             </div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;             ncdf%decomplist(1:olddecompcnt)=tmpdecomplist</div>
@@ -472,7 +472,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;          <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;             <span class="keyword">allocate</span>(ncdf%decomplist(1),stat=ierr)</div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;             <span class="keywordflow">if</span>(ierr.ne.0) <span class="keywordflow">then</span> </div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;<span class="keywordflow">             end if</span></div>
 <div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;<span class="keywordflow">          endif</span></div>
 <div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;          ncdf%decomplist(olddecompcnt+1)=decomp</div>
@@ -538,7 +538,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160; </div>
 <div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;          <span class="keywordflow">if</span>(ierr.ne.0) <span class="keywordflow">then</span> </div>
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;             print *, __line__, ierr, maxdims</div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;             <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;             <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;<span class="keywordflow">          end if</span></div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160; </div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;          <span class="comment">!  Count the variables actually being written to this file</span></div>
@@ -560,14 +560,14 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;                <span class="keyword">allocate</span>(tmpvarlist(oldvarcnt),stat=ierr)</div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;                <span class="keywordflow">if</span>(ierr.ne.0) <span class="keywordflow">then</span> </div>
 <div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;                   print *, __line__, ierr,oldvarcnt</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;                   <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;                   <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;<span class="keywordflow">                end if</span></div>
 <div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;                tmpvarlist = ncdf%varlist</div>
 <div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;                <span class="keyword">deallocate</span>(ncdf%varlist)</div>
 <div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;                <span class="keyword">allocate</span>(ncdf%varlist(newvarcnt),stat=ierr)</div>
 <div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;                <span class="keywordflow">if</span>(ierr.ne.0) <span class="keywordflow">then</span> </div>
 <div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;                   print *, __line__, ierr,newvarcnt</div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;                   <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;                   <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
 <div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;<span class="keywordflow">                end if</span></div>
 <div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160; </div>
 <div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;                ncdf%varlist(1:oldvarcnt)=tmpvarlist</div>
@@ -576,7 +576,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;                <span class="keyword">allocate</span>(ncdf%varlist(newvarcnt),stat=ierr)</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;                <span class="keywordflow">if</span>(ierr.ne.0) <span class="keywordflow">then</span> </div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                   print *, __line__, ierr,newvarcnt</div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;                   <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;                   <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;<span class="keywordflow">                end if</span></div>
 <div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;<span class="keywordflow">             endif</span></div>
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160; </div>
@@ -599,7 +599,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160; </div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;                   <span class="keywordflow">if</span>(ierr.ne.0) <span class="keywordflow">then</span> </div>
 <div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;                      print *, __line__, ierr,newvarcnt</div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;                      <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;                      <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;<span class="keywordflow">                   end if</span></div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;                   varptr%ndims=dimcnt</div>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;                   varptr%varname=varname(i)</div>
@@ -735,7 +735,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;             <span class="keyword">allocate</span>(tmpdimlist(olddimcnt),stat=ierr)</div>
 <div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;             <span class="keywordflow">if</span>(ierr.ne.0) <span class="keywordflow">then</span> </div>
 <div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;                print *, __line__, ierr,olddimcnt</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;                <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;                <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
 <div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;<span class="keywordflow">             end if</span></div>
 <div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;             </div>
 <div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;             tmpdimlist = ncdf%dimlist</div>
@@ -743,7 +743,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;             <span class="keyword">allocate</span>(ncdf%dimlist(newdimcnt),stat=ierr)</div>
 <div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;             <span class="keywordflow">if</span>(ierr.ne.0) <span class="keywordflow">then</span> </div>
 <div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;                print *, __line__, ierr,newdimcnt</div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;                <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;                <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
 <div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;<span class="keywordflow">             end if</span></div>
 <div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;             ncdf%dimlist(1:olddimcnt)=tmpdimlist</div>
 <div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;             <span class="keyword">deallocate</span>(tmpdimlist)</div>
@@ -751,7 +751,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;             <span class="keyword">allocate</span>(ncdf%dimlist(dimcnt),stat=ierr)</div>
 <div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;             <span class="keywordflow">if</span>(ierr.ne.0) <span class="keywordflow">then</span> </div>
 <div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;                print *, __line__, ierr,dimcnt</div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;                <span class="keyword">call </span>abortmp(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;                <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&#39;allocate error in pio_io_mod&#39;</span>)</div>
 <div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;<span class="keywordflow">             end if</span></div>
 <div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;<span class="keywordflow">          endif</span></div>
 <div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;          <span class="keywordflow">do</span> i=1,dimcnt</div>
@@ -798,7 +798,7 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;<span class="preprocessor">#ifdef AIX</span></div>
 <div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;<span class="preprocessor"></span>       <span class="keyword">call </span>xl__trbk()</div>
 <div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;<span class="preprocessor"></span>       <span class="keyword">call </span>abortmp(<span class="stringliteral">&quot;pio_io_mod Error&quot;</span>)</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;<span class="preprocessor"></span>       <span class="keyword">call </span><a class="code" href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">abortmp</a>(<span class="stringliteral">&quot;pio_io_mod Error&quot;</span>)</div>
 <div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;<span class="keywordflow">    end if</span></div>
 <div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;  <span class="keyword">end subroutine </span><a class="code" href="namespacepio__io__mod.html#a5ffc46ce9f245fabda9569ae98163e1e">check</a></div>
 <div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160; </div>
@@ -910,6 +910,15 @@ $(document).ready(function(){initNavTree('pio__io__mod_8_f90_source.html',''); i
 <div class="ttc" id="anamespacecommon__io__mod_html_ad974f75b9bca632811a6c0327146ad77"><div class="ttname"><a href="namespacecommon__io__mod.html#ad974f75b9bca632811a6c0327146ad77">common_io_mod::get_varindex</a></div><div class="ttdeci">integer function, public get_varindex(name, varlist)</div><div class="ttdef"><b>Definition:</b> <a href="common__io__mod_8_f90_source.html#l00178">common_io_mod.F90:179</a></div></div>
 <div class="ttc" id="anamespacecommon__io__mod_html_ae15b659a6d25ad40e54eacfca06a999b"><div class="ttname"><a href="namespacecommon__io__mod.html#ae15b659a6d25ad40e54eacfca06a999b">common_io_mod::beginstate</a></div><div class="ttdeci">integer, parameter, public beginstate</div><div class="ttdef"><b>Definition:</b> <a href="common__io__mod_8_f90_source.html#l00061">common_io_mod.F90:61</a></div></div>
 <div class="ttc" id="anamespacecommon__io__mod_html_ae16c8eee6593aeb117d1dbd54ca01685"><div class="ttname"><a href="namespacecommon__io__mod.html#ae16c8eee6593aeb117d1dbd54ca01685">common_io_mod::io_stride</a></div><div class="ttdeci">integer, public io_stride</div><div class="ttdef"><b>Definition:</b> <a href="common__io__mod_8_f90_source.html#l00047">common_io_mod.F90:47</a></div></div>
+<div class="ttc" id="anamespacecontrol__mod_html"><div class="ttname"><a href="namespacecontrol__mod.html">control_mod</a></div><div class="ttdef"><b>Definition:</b> <a href="control__mod_8_f90_source.html#l00008">control_mod.F90:8</a></div></div>
+<div class="ttc" id="anamespacecontrol__mod_html_a5c6a4faa3d47a6705630d416e735c8c5"><div class="ttname"><a href="namespacecontrol__mod.html#a5c6a4faa3d47a6705630d416e735c8c5">control_mod::max_string_len</a></div><div class="ttdeci">integer, parameter, public max_string_len</div><div class="ttdef"><b>Definition:</b> <a href="control__mod_8_f90_source.html#l00014">control_mod.F90:14</a></div></div>
+<div class="ttc" id="anamespacekinds_html"><div class="ttname"><a href="namespacekinds.html">kinds</a></div><div class="ttdef"><b>Definition:</b> <a href="kinds_8_f90_source.html#l00005">kinds.F90:5</a></div></div>
+<div class="ttc" id="anamespacekinds_html_a3df43a1a47df308ae70f8f8e98d9337c"><div class="ttname"><a href="namespacekinds.html#a3df43a1a47df308ae70f8f8e98d9337c">kinds::int_kind</a></div><div class="ttdeci">integer(kind=4), parameter, public int_kind</div><div class="ttdef"><b>Definition:</b> <a href="kinds_8_f90_source.html#l00027">kinds.F90:27</a></div></div>
+<div class="ttc" id="anamespacekinds_html_abddc5e60584151b4d48b02e6436330f3"><div class="ttname"><a href="namespacekinds.html#abddc5e60584151b4d48b02e6436330f3">kinds::real_kind</a></div><div class="ttdeci">integer(kind=4), parameter, public real_kind</div><div class="ttdef"><b>Definition:</b> <a href="kinds_8_f90_source.html#l00027">kinds.F90:27</a></div></div>
+<div class="ttc" id="anamespaceparallel__mod_html"><div class="ttname"><a href="namespaceparallel__mod.html">parallel_mod</a></div><div class="ttdef"><b>Definition:</b> <a href="parallel__mod_8_f90_source.html#l00004">parallel_mod.F90:4</a></div></div>
+<div class="ttc" id="anamespaceparallel__mod_html_a00f76482d3b7bb15da165475c828f466"><div class="ttname"><a href="namespaceparallel__mod.html#a00f76482d3b7bb15da165475c828f466">parallel_mod::abortmp</a></div><div class="ttdeci">subroutine, public abortmp(string)</div><div class="ttdef"><b>Definition:</b> <a href="parallel__mod_8_f90_source.html#l00293">parallel_mod.F90:294</a></div></div>
+<div class="ttc" id="anamespaceparallel__mod_html_a05500c89fdc3fde95699a4463ce065b9"><div class="ttname"><a href="namespaceparallel__mod.html#a05500c89fdc3fde95699a4463ce065b9">parallel_mod::mpireal_t</a></div><div class="ttdeci">integer, public mpireal_t</div><div class="ttdef"><b>Definition:</b> <a href="parallel__mod_8_f90_source.html#l00028">parallel_mod.F90:28</a></div></div>
+<div class="ttc" id="anamespaceparallel__mod_html_a37c8b0c9791e659962e476f5aa33c763"><div class="ttname"><a href="namespaceparallel__mod.html#a37c8b0c9791e659962e476f5aa33c763">parallel_mod::mpiinteger_t</a></div><div class="ttdeci">integer, public mpiinteger_t</div><div class="ttdef"><b>Definition:</b> <a href="parallel__mod_8_f90_source.html#l00028">parallel_mod.F90:28</a></div></div>
 <div class="ttc" id="anamespacepio__io__mod_html"><div class="ttname"><a href="namespacepio__io__mod.html">pio_io_mod</a></div><div class="ttdef"><b>Definition:</b> <a href="pio__io__mod_8_f90_source.html#l00005">pio_io_mod.F90:5</a></div></div>
 <div class="ttc" id="anamespacepio__io__mod_html_a116f59e10b18a62b6a53c2536136c792"><div class="ttname"><a href="namespacepio__io__mod.html#a116f59e10b18a62b6a53c2536136c792">pio_io_mod::nf_output_init_begin</a></div><div class="ttdeci">subroutine, public nf_output_init_begin(ncdf, masterproc, nprocs, rank, comm, file_prefix, runtype)</div><div class="ttdef"><b>Definition:</b> <a href="pio__io__mod_8_f90_source.html#l00586">pio_io_mod.F90:587</a></div></div>
 <div class="ttc" id="anamespacepio__io__mod_html_a1626b1dbdce0ddb84beb93d0e3b967f8"><div class="ttname"><a href="namespacepio__io__mod.html#a1626b1dbdce0ddb84beb93d0e3b967f8">pio_io_mod::nf_advance_frame</a></div><div class="ttdeci">subroutine, public nf_advance_frame(ncdf)</div><div class="ttdef"><b>Definition:</b> <a href="pio__io__mod_8_f90_source.html#l00058">pio_io_mod.F90:59</a></div></div>

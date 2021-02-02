@@ -1,0 +1,25 @@
+var struct_homme_1_1_dirk_functor_impl =
+[
+    [ "ConstWorkSlot", "struct_homme_1_1_dirk_functor_impl.html#acc71b9c82c12f01dcbe5b35eb7062030", null ],
+    [ "LinearSystem", "struct_homme_1_1_dirk_functor_impl.html#a6e396d75a11df2ad21f22acda475afb7", null ],
+    [ "LinearSystemSlot", "struct_homme_1_1_dirk_functor_impl.html#a63b6c5ff55d179bde23f77243e66314c", null ],
+    [ "MT", "struct_homme_1_1_dirk_functor_impl.html#a25ccb494d5f63dc7d219495bcba074cf", null ],
+    [ "TeamPolicy", "struct_homme_1_1_dirk_functor_impl.html#a1ec2e98954a9fd215a4bddfcad45ad8d", null ],
+    [ "Work", "struct_homme_1_1_dirk_functor_impl.html#a9af6e752f61b639e7546ef82462761b3", null ],
+    [ "WorkSlot", "struct_homme_1_1_dirk_functor_impl.html#a1e0bed3e80f41dfc4edc0131799205c4", null ],
+    [ "DirkFunctorImpl", "struct_homme_1_1_dirk_functor_impl.html#abd9c140e611e21fbaffb60a354828862", null ],
+    [ "init", "struct_homme_1_1_dirk_functor_impl.html#a482a596f608fa186f224ff826fabf4af", null ],
+    [ "init_buffers", "struct_homme_1_1_dirk_functor_impl.html#ab84a51a898552b520929b580aec455f1", null ],
+    [ "requested_buffer_size", "struct_homme_1_1_dirk_functor_impl.html#aaa0cba0d780f6f82ef24f5f66efe2339", null ],
+    [ "run", "struct_homme_1_1_dirk_functor_impl.html#aacd66adbf0a65ff852dadd75d96c970c", null ],
+    [ "run_initial_guess", "struct_homme_1_1_dirk_functor_impl.html#a6e1ff184b5d4288c62224ed6c2d6c66a", null ],
+    [ "run_newton", "struct_homme_1_1_dirk_functor_impl.html#a553a47e88f1375616594e54814915650", null ],
+    [ "shmem_size", "struct_homme_1_1_dirk_functor_impl.html#a756490fb7e2d1d9594c0354c5ab45784", null ],
+    [ "m_ig_policy", "struct_homme_1_1_dirk_functor_impl.html#ae8678dd7d4c0472d9c376710a5bfe54d", null ],
+    [ "m_ls", "struct_homme_1_1_dirk_functor_impl.html#a452a30294bda364b6d58fb319d855e06", null ],
+    [ "m_policy", "struct_homme_1_1_dirk_functor_impl.html#ae87d36a8fd8bd92c1b960f8896c626d6", null ],
+    [ "m_tu", "struct_homme_1_1_dirk_functor_impl.html#a213ee372718dc93f3d4fadf47574cdab", null ],
+    [ "m_tu_ig", "struct_homme_1_1_dirk_functor_impl.html#a30b3cfd07066fd2adcfdbde8b05b09fb", null ],
+    [ "m_work", "struct_homme_1_1_dirk_functor_impl.html#a4d29c2912f5014c0a878f48ad8268624", null ],
+    [ "nslot", "struct_homme_1_1_dirk_functor_impl.html#af2208bbe9fadd70135385d703020814d", null ]
+];

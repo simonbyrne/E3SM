@@ -1,0 +1,10 @@
+<map id="Homme::add_connection" name="Homme::add_connection">
+<area shape="rect" id="node1" title=" " alt="" coords="5,153,171,180"/>
+<area shape="rect" id="node2" href="$class_homme_1_1_connectivity.html#afe7bb3716b8cc229752da3bf8f513c82" title=" " alt="" coords="234,62,379,103"/>
+<area shape="rect" id="node6" href="$class_homme_1_1_context.html#a19ee421d6774a6e2ac19f03593e63ef5" title=" " alt="" coords="235,153,378,180"/>
+<area shape="rect" id="node8" href="$class_homme_1_1_context.html#a3524e246c3670a238eb8f7893618cd18" title=" " alt="" coords="219,204,395,231"/>
+<area shape="rect" id="node3" href="$namespace_homme.html#a1db304994d2b263924d9c70a44b377bd" title=" " alt="" coords="487,5,581,32"/>
+<area shape="rect" id="node4" href="$class_homme_1_1_comm.html#a9cbab2bfe15f25fad68313f48c9e5926" title=" " alt="" coords="443,56,625,83"/>
+<area shape="rect" id="node5" href="$class_homme_1_1_comm.html#a60fe92491eb663cdfef069531c6f1d95" title=" " alt="" coords="463,107,605,133"/>
+<area shape="rect" id="node7" href="$namespace_homme_1_1_errors.html#a95dbb20d9e1350b7ca3e7c342c6bcb0b" title=" " alt="" coords="455,158,613,199"/>
+</map>
