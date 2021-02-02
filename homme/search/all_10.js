@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['read_5fgll_5ftopo_5ffile_195',['read_gll_topo_file',['../namespaceinterpolate__driver__mod.html#a42194fcee212fac3eec64218a0e7d810',1,'interpolate_driver_mod']]],
+  ['read_5fphysgrid_5ftopo_5ffile_196',['read_physgrid_topo_file',['../namespaceinterpolate__driver__mod.html#a9853ba71722c6fc48f341533862b1aee',1,'interpolate_driver_mod']]],
+  ['readrestart_197',['readrestart',['../namespacerestart__io__mod.html#a1b2fd31582df32945f24f49c107c7219',1,'restart_io_mod']]],
+  ['readystate_198',['readystate',['../namespacecommon__io__mod.html#a12d4725055ffc51859cae227eacc0d4a',1,'common_io_mod']]],
+  ['rebind_2ec_199',['rebind.c',['../rebind_8c.html',1,'']]],
+  ['red_200',['red',['../structprecon__type__mod_1_1precon__type.html#a722efa88f4c40e0d2f59b4901d1f0057',1,'precon_type_mod::precon_type']]],
+  ['reigen_5fsolver_201',['reigen_solver',['../namespacelinear__algebra__mod.html#adeb5c19b6cee7721af5eda123034547b',1,'linear_algebra_mod']]],
+  ['repro_5fsum_202',['repro_sum',['../namespacerepro__sum__mod.html#aafdce752055ec82fd02bc6c76d32ae19',1,'repro_sum_mod']]],
+  ['repro_5fsum_5fdefaultopts_203',['repro_sum_defaultopts',['../namespacerepro__sum__mod.html#ac40d27051435cdd6c6409e69cf90f148',1,'repro_sum_mod']]],
+  ['repro_5fsum_5fmod_204',['repro_sum_mod',['../namespacerepro__sum__mod.html',1,'']]],
+  ['repro_5fsum_5fmod_2ef90_205',['repro_sum_mod.F90',['../repro__sum__mod_8_f90.html',1,'']]],
+  ['repro_5fsum_5frecompute_206',['repro_sum_recompute',['../namespacerepro__sum__mod.html#a6613536d8043d5bf67db12b4c95f8092',1,'repro_sum_mod']]],
+  ['repro_5fsum_5frel_5fdiff_5fmax_207',['repro_sum_rel_diff_max',['../namespacerepro__sum__mod.html#a73cf3056844edc065fc7544f5364a600',1,'repro_sum_mod']]],
+  ['repro_5fsum_5fsetopts_208',['repro_sum_setopts',['../namespacerepro__sum__mod.html#a166df2337d8c401c0f53768ebd2c3826',1,'repro_sum_mod']]],
+  ['repro_5fsum_5ftol_5fexceeded_209',['repro_sum_tol_exceeded',['../namespacerepro__sum__mod.html#a2c29b4c017f8770173b9d072ddbc35f6',1,'repro_sum_mod']]],
+  ['repro_5fsum_5fx86_2ec_210',['repro_sum_x86.c',['../repro__sum__x86_8c.html',1,'']]],
+  ['residual_211',['residual',['../namespaceimplicit__mod.html#a6ccc12a51f5ef6fa0c626a39b95bf403',1,'implicit_mod']]],
+  ['restart_5fhdr_5fcnt_212',['restart_hdr_cnt',['../namespacerestart__io__mod.html#adb00af3e740e9876c406d230c9afb9ba',1,'restart_io_mod']]],
+  ['restart_5fio_5fmod_213',['restart_io_mod',['../namespacerestart__io__mod.html',1,'']]],
+  ['restart_5fio_5fmod_2ef90_214',['restart_io_mod.F90',['../restart__io__mod_8_f90.html',1,'']]],
+  ['restartbuffer_215',['restartbuffer',['../namespacerestart__io__mod.html#a580825c791a1f7864e73bbcfd8885b31',1,'restart_io_mod']]],
+  ['restartbuffer_5ft_216',['restartbuffer_t',['../structrestart__io__mod_1_1restartbuffer__t.html',1,'restart_io_mod']]],
+  ['restartheader_5ft_217',['restartheader_t',['../structrestart__io__mod_1_1restartheader__t.html',1,'restart_io_mod']]],
+  ['restfile_218',['restfile',['../namespacerestart__io__mod.html#a3d358308f0a253d14f8c75b98fb7f130',1,'restart_io_mod']]],
+  ['restore_5foutput_5fvars_219',['restore_output_vars',['../namespaceinterpolate__driver__mod.html#a0a34eab19550b6ab5ca1a46e81816393',1,'interpolate_driver_mod']]]
+];
